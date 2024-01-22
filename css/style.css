@@ -53,6 +53,13 @@ background-color: #2176ff;
     font-family: 'montserrat';
 }
 
+.h1-bg{
+  font-size: 1.25rem;
+  font-family: 'montserrat';
+  font-weight: bold;
+  
+}
+
 /* Button navbar */
 
 .btn-1-1{
@@ -146,7 +153,7 @@ section.hero{
 
 .text-label{
     color:#2176ff;
-    font-size: 2.875;
+    font-size: 2.875rem;
     line-height: 2.813rem;
     font-style:italic;
     font-weight:bolder;
@@ -192,25 +199,138 @@ section.hero{
 .btn-hero-link{
   text-decoration: none;
 }
-/* ------Cards------ */
 
-.text-cards-h1{
-    color: #2176ff;
-    font-size: 2.813rem;
-    font-weight: bold;
+/* Qué ofrecemos */
+.offer h2 {
+    position: relative;
+    margin-bottom: 2.188rem;
+    font-size:2.813rem;
     font-family: 'lora';
     font-style: italic;
+    font-weight: bold;
+    color: #2176ff;
+}
+.offer h2::after {
+    content: "";
+    width: 120px;
+    height: 3px;
+    display: inline-block;
+    background: #FFC107;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -20px;
+    margin: 0 auto;
 }
 
-.text-cards-h2{
+.offer .box {
+    padding: 50px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
+    transition: 0.5s;
+    position: relative;
+    background-color:#33a1fd;
+    max-height: 270px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.offer .box:hover {
+	padding: 30px 30px 70px 30px;
+	box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.20);
+	background-color:#31393c;
+}
+
+
+/* .why-us .box span {
+    display: block;
+    font-size: 50px;
+    font-weight: 700;
+    color: #6b6060;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    line-height: normal;
+} */
+.offer .box h3 a {
+	font-size: 1.5rem;
+	font-weight: 600;
+	padding: 0;
+	margin: 20px 0;
+	color: white;
+	text-decoration: none;
+}
+
+.offer .box:hover span,
+.offer .box:hover h4 a,
+ {
+  	color: #fff;
+}
+
+.btn-offer{
+  background:#fdca40;
+  color: white;
+  padding: 0.625rem;
+  padding-left:4.375rem;
+  font-size: 0.938rem;
+  font-weight: 500;
+  border-radius:1.25rem;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  height: 2.5em;
+  width: 14em;
+  padding-right: 1em;
+  text-align: center;
+}
+.btn-offer-link{
+  text-decoration: none;
+}
+
+
+/* ---Por qué elegirnos Cards---*/
+
+.por-que-h2 {
+  position: relative;
+  margin-bottom: 2.188rem;
+  font-size:2.813rem;
+  font-family: 'lora';
+  font-style: italic;
+  font-weight: bold;
+  color: #2176ff;
+}
+.por-que-h2::after {
+  content: "";
+  width: 120px;
+  height: 3px;
+  display: inline-block;
+  background: #FFC107;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: -20px;
+  margin-bottom: 100px;
+  margin: 0 auto;
+}
+.por-que-h3{
     font-size: 1.25rem;
     color: #2176ff;
     font-family: 'montserrat';
+    font-weight: 600;
 }
-.text-cards-body{
+.por-que-body{
     font-size: 1.063rem;
     font-weight:400;
     font-family: 'montserrat';
+}
+.card-body{
+  height: 250px;
+}
+
+.por-que-body-ul-li{
+  list-style: none;
 }
 /* Preuniversitarios */
 .background-pre{
