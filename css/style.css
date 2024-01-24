@@ -6,10 +6,10 @@
 /* Colors:  */
 
 /* #31393c
-#2176ff
+##4A85EE
 #33a1fd
 #fdca40
-#f79824  */
+##FF5700  */
 
 /* Header */
 /* WhatsApp sticky btn */
@@ -34,36 +34,31 @@
 /* -----NavBar----- */
 
 .navbar-bg{
-background-color: #2176ff;
+background-color:#EFEFEF;
 }
 .text-navbar{
     font-size: 1.1rem;
-    color: white;
+    color: #4A85EE;
     text-decoration: none;
-    font-weight:500;
-    font-family:'montserrat'
+    font-weight:400;
+    font-family:'gotham';
 }
-.background-2{
-    background-color:#31393c;
-    color: white;
-    font-weight: 700;
-    font-size: 1.25rem;
-    background-size: cover;
-    margin-bottom:-1rem;
-    font-family: 'montserrat';
+.text-navbar:hover{
+  color: #FF5700;
 }
 
-.h1-bg{
-  font-size: 1.25rem;
-  font-family: 'montserrat';
-  font-weight: bold;
-  
+
+.logo-iec{
+  height: 70px;
+  width: 70px;
+  margin-left: 50px;
+
 }
 
 /* Button navbar */
 
 .btn-1-1{
-    background: #33a1fd;
+    background: #4A85EE;
     color: white;
     padding: 0.625rem;
     padding-left:2.5rem;
@@ -80,7 +75,7 @@ background-color: #2176ff;
     width: 11em;
     padding-right: 1em;
     text-align: center;
-    font-family: 'montserrat';
+    font-family: 'gotham';
 
   }
   .btn-1-1:hover {
@@ -109,7 +104,7 @@ background-color: #2176ff;
   }
   
   .btn-1{
-    background: #f79824;
+    background: #FF5700;
     color: white;
     padding: 0.625rem;
     padding-left:1.438rem;
@@ -126,13 +121,27 @@ background-color: #2176ff;
     width: 11em;
     padding-right: 1em;
     text-align: center;
-    font-family: 'montserrat';
+    font-family: 'gotham';
   }
+
+  .background-2{
+    background-color:#33a1fd;
+    background-size: cover;
+    margin-bottom:-1rem;
+}
+
+.h1-bg{
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-family:'gotham';
+  color: white;
+
+}
 
   /* Banner */
   .banner{
     width: 100%;
-    height: 22.938rem;
+    height: 600px;
 }
 .container-fluid{
     padding-left: 0;
@@ -153,18 +162,18 @@ section.hero{
 
 .text-label{
     color:#2176ff;
-    font-size: 2.875rem;
+    font-size: 2.65rem;
     line-height: 2.813rem;
     font-style:italic;
     font-weight:bolder;
-    font-family: 'lora'
+    font-family: 'gotham'
 }
 .text-hero-regular{
     color: #31393c;
     font-size: 1.25rem;
     line-height: 1.875rem;
-    font-weight: 500;
-    font-family:'montserrat';
+    font-weight: 400;
+    font-family:'fira sans';
 }
 
 .btn-hero{
@@ -185,7 +194,7 @@ section.hero{
   width: 15em;
   padding-right: 1em;
   text-align: center;
-  font-family: 'montserrat';
+  font-family: 'gotham';
 }
 .btn-hero:hover {
   transform: translate(-0.05em, -0.05em);
@@ -204,9 +213,8 @@ section.hero{
 .offer h2 {
     position: relative;
     margin-bottom: 2.188rem;
-    font-size:2.813rem;
-    font-family: 'lora';
-    font-style: italic;
+    font-size:40px;
+    font-family: 'gotham';
     font-weight: bold;
     color: #2176ff;
 }
@@ -228,8 +236,7 @@ section.hero{
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
     transition: 0.5s;
     position: relative;
-    background-color:#33a1fd;
-    max-height: 270px;
+    max-height: 170px;
     overflow: hidden;
     margin-bottom: 30px;
     border-radius: 10px;
@@ -253,6 +260,7 @@ section.hero{
 } */
 .offer .box h3 a {
 	font-size: 1.5rem;
+  font-family: 'fira sans';
 	font-weight: 600;
 	padding: 0;
 	margin: 20px 0;
@@ -260,18 +268,13 @@ section.hero{
 	text-decoration: none;
 }
 
-.offer .box:hover span,
-.offer .box:hover h4 a,
- {
-  	color: #fff;
-}
 
 .btn-offer{
   background:#fdca40;
   color: white;
-  padding: 0.625rem;
-  padding-left:4.375rem;
-  font-size: 0.938rem;
+  padding-left:30px;
+  font-size: 12px;
+  font-family: 'gotham';
   font-weight: 500;
   border-radius:1.25rem;
   border: none;
@@ -280,10 +283,9 @@ section.hero{
   align-items: center;
   overflow: hidden;
   position: relative;
-  height: 2.5em;
-  width: 14em;
-  padding-right: 1em;
-  text-align: center;
+  height: 30px;
+  width: 150px;
+  padding-right:16px;
 }
 .btn-offer-link{
   text-decoration: none;
@@ -295,9 +297,8 @@ section.hero{
 .por-que-h2 {
   position: relative;
   margin-bottom: 2.188rem;
-  font-size:2.813rem;
-  font-family: 'lora';
-  font-style: italic;
+  font-size:40px;
+  font-family: 'gotham';
   font-weight: bold;
   color: #2176ff;
 }
@@ -317,13 +318,13 @@ section.hero{
 .por-que-h3{
     font-size: 1.25rem;
     color: #2176ff;
-    font-family: 'montserrat';
+    font-family: 'fira sans';
     font-weight: 600;
 }
 .por-que-body{
     font-size: 1.063rem;
     font-weight:400;
-    font-family: 'montserrat';
+    font-family: 'fira sans';
 }
 .card-body{
   height: 250px;
@@ -337,15 +338,14 @@ section.hero{
   background-color: #2176ff;
 }
 .pre-title{
-  font-family:'lora';
+  font-family:'gotham';
   font-size: 2.813rem;
   font-weight: bold;
   color: white;
-  font-style: italic;
   margin-top: 3.125rem;
 }
 .pre-text{
-  font-family: 'montserrat';
+  font-family: 'fira sans';
   color: white;
   font-weight: bold;
   font-size: 1.25rem;
@@ -358,6 +358,7 @@ section.hero{
   padding: 0.625rem;
   padding-left:9em;
   font-size: 1.25rem;
+  font-family: 'gotham';
   font-weight: 500;
   border-radius: 1.25rem;
   border: none;
@@ -368,7 +369,6 @@ section.hero{
   position: relative;
   height: 3rem;
   width: 25em;
- 
   text-align: center;
   }
 
@@ -386,84 +386,100 @@ section.hero{
   }
 
 
-  /* Carrusel Cursos */
+  /* Clases de apoyo */
+  .clases-apoyo-h2 {
+  position: relative;
+  margin-bottom: 2.188rem;
+  font-size:2.813rem;
+  font-family: 'gotham';
+  font-weight: bold;
+  color: white;
+}
+.clases-apoyo-h2::after {
+  content: "";
+  width: 120px;
+  height: 3px;
+  display: inline-block;
+  background: #FFC107;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: -20px;
+  margin-bottom: 100px;
+  margin: 0 auto;
+}
+  .card-apoyo-body{
+    height:200px;
+  }
 
-  .img-cursos{
-    background-size: cover;
-    width:90%;
-    height: 15.625rem;    
-  }
-  .text-cards-cursos{
-    font-size: 1.25rem;
-    font-family: 'montserrat';
-    font-weight: bold;
-  }
-  .btn-cursos-1{
-    background:#2176ff;
+.btn-apoyo{
+    background: #FF5700;
     color: white;
-    padding: 0.625rem;
-    padding-left:4.375rem;
-    font-size: 0.938rem;
-    font-weight: 500;
+    font-size:1rem;
+    font-weight: bold;
     border-radius:1.25rem;
     border: none;
     cursor: pointer;
     display: flex;
     align-items: center;
+    justify-content: center;
     overflow: hidden;
     position: relative;
-    height: 2.5em;
-    width: 14em;
-    padding-right: 1em;
+    height: 2.5rem;
+    width: 12em;
     text-align: center;
+    font-family: 'gotham';
   }
-  .btn-cursos-2{
-    background: #f79824;
-    color: white;
-    padding-left:1.25rem;
-    font-size:0.938rem;
-    font-weight: 500;
-    border-radius:1.25rem;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-    position: relative;
-    height: 2.5em;
-    width: 14em;
-    padding-right: 1em;
-  }
-  .btn-cursos-1:hover {
+  .btn-apoyo:hover {
     transform: translate(-0.05em, -0.05em);
     box-shadow: 0.15em 0.15em #31393c;
   }
   
-  .btn-cursos-1:active {
+  .btn-apoyo:active {
     transform: translate(0.05em, 0.05em);
     box-shadow: 0.05em 0.05em #31393c;
   }
-  .btn-cursos-1-link{
+  .btn-apoyo-link{
     text-decoration: none;
   }
-  .btn-cursos-2:hover {
-    transform: translate(-0.05em, -0.05em);
-    box-shadow: 0.15em 0.15em #31393c;
-  }
+.img-cards{
+  height: 240px;
+}
+.apoyo-sub{
+  font-family: 'gotham';
+  font-size: 20px;
+  font-weight: 500;
+  color: #31393c;
+}
+.apoyo-body{
+  font-family: 'fira sans';
+  font-size: 17px;
+  color: #4A85EE;
+  font-weight: 600;
+}
   
-  .btn-cursos-2:active {
-    transform: translate(0.05em, 0.05em);
-    box-shadow: 0.05em 0.05em #31393c;
-  }
-  .btn-cursos-2-link{
-    text-decoration: none;
-  }
-
   /* About us */
-  .about-h2{
-    font-size:2.813rem;
-    font-family: 'lora';
+
+  .about-h2 {
+    position: relative;
+    margin-bottom: 2.188rem;
+    font-size:40px;
+    font-family: 'gotham';
     font-weight: bold;
-    font-style: italic;
-    color: #2176ff;
+    color:#4A85EE;
+  }
+  .about-h2::after {
+    content: "";
+    width: 120px;
+    height: 3px;
+    display: inline-block;
+    background: #FFC107;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -20px;
+    margin-bottom: 100px;
+    margin: 0 auto;
   }
 
   .img-about{
@@ -482,7 +498,26 @@ section.hero{
 .text-about{
 color: #31393c;
 font-size: 1.25rem;
-font-family: 'montserrat';
+font-family: 'fira sans';
+}
+
+.card-about-sub{
+  font-size: 30px;
+  font-family: 'gotham';
+  font-weight: 500;
+}
+
+.card-about-body{
+  font-size: 17px;
+  font-family: 'fira sans';
+  font-weight: lighter;
+}
+.card-about1{
+  background-color: #4A85EE;
+}
+.card-about2{
+  background-color: white;
+  border: 1px solid #FF5700;
 }
 
 /* ------------btn-about-------- */
@@ -497,7 +532,7 @@ font-family: 'montserrat';
   transition: 0.5s;
   font-size: 1.25rem;
   border-radius: 1.25rem;
-  font-family: 'montserrat';
+  font-family: 'gotham';
 }
 
 .btn-about p {
@@ -508,6 +543,7 @@ font-family: 'montserrat';
   padding: 0;
   transition: .5s;
   color: #2176ff;
+  font-family: 'gotham';
   text-align: center;
 }
 
@@ -536,6 +572,30 @@ font-family: 'montserrat';
   background-color: #0077b5;
 }
 
+/* Profesores */
+.profesores-h2 {
+  position: relative;
+  margin-bottom: 2.188rem;
+  font-size:40px;
+  font-family: 'gotham';
+  font-weight: bold;
+  color:#4A85EE;
+}
+.profesores-h2::after {
+  content: "";
+  width: 120px;
+  height: 3px;
+  display: inline-block;
+  background: #FFC107;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: -20px;
+  margin-bottom: 100px;
+  margin: 0 auto;
+}
+
+
 /* Contact us */
 
 .img-contact{
@@ -547,8 +607,7 @@ font-family: 'montserrat';
 color:#2176ff;
 font-size: 2.813rem;
 font-weight: bold;
-font-family: 'lora';
-font-style: italic;
+font-family: 'gotham';
 padding-bottom: 6.25rem;
 
 }
@@ -571,21 +630,20 @@ font-family: 'montserrat';
 /* FAQ */
 .faq-h2{
   font-size:2.813rem;
-  font-family: 'lora';
+  font-family: 'fira sans';
   font-weight: bold;
-  font-style: italic;
   color: #2176ff;
 }
 
 .faq-text-title{
   font-size: 1.25rem;
-  font-family: 'montserrat';
+  font-family: 'fira sans';
   font-weight: bold;
   color: #31393c;
 }
 .faq-text-body{
   font-size: 1.063;
-  font-family: 'montserrat';
+  font-family: 'fira sans';
   font-weight: 400;
   color: #31393c;
 }
@@ -595,7 +653,7 @@ font-family: 'montserrat';
 .bg-footer{
   background-color: #2176ff;
   color: white;
-  font-family: 'montserrat';
+  font-family: 'fira sans';
   font-weight: 400;
 
 }
@@ -609,8 +667,8 @@ font-family: 'montserrat';
   font-size: 0.875rem;
   color: #31393c;
   text-decoration: none;
-  font-family: 'montserrat';
-  font-weight: 700;
+  font-family: 'gotham';
+  font-weight: 500;
 }
 
 
