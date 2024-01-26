@@ -13,6 +13,7 @@
 
 /* Header */
 /* WhatsApp sticky btn */
+
 .scroll{
   overflow-x: hidden;
 }
@@ -798,7 +799,14 @@ font-family: 'gotham';
 
 /* Media queries */
 
+@media (max-width:2460px){
+   /* Banner */
+   .banner{
+    width: 100%;
+    height: 800px;
+}
 
+}
 
 
 
