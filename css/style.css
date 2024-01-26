@@ -47,6 +47,9 @@ background-color:#EFEFEF;
   color: #FF5700;
 }
 
+.inscripciones-link{
+  text-decoration: none;
+}
 
 .logo-iec{
   height: 70px;
@@ -125,7 +128,7 @@ background-color:#EFEFEF;
   }
 
   .background-2{
-    background-color:#33a1fd;
+    background-color:#4A85EE;
     background-size: cover;
     margin-bottom:-1rem;
 }
@@ -161,7 +164,7 @@ section.hero{
 }
 
 .text-label{
-    color:#2176ff;
+    color:#4A85EE;
     font-size: 2.65rem;
     line-height: 2.813rem;
     font-style:italic;
@@ -177,7 +180,7 @@ section.hero{
 }
 
 .btn-hero{
-  background: #f79824;
+  background: #FF5700;
   color: white;
   padding: 0.625rem;
   padding-left:4em;
@@ -210,15 +213,15 @@ section.hero{
 }
 
 /* Qué ofrecemos */
-.offer h2 {
+.offer-h2 {
     position: relative;
     margin-bottom: 2.188rem;
     font-size:40px;
     font-family: 'gotham';
     font-weight: bold;
-    color: #2176ff;
+    color: #4A85EE;
 }
-.offer h2::after {
+.offer-h2::after {
     content: "";
     width: 120px;
     height: 3px;
@@ -240,56 +243,68 @@ section.hero{
     overflow: hidden;
     margin-bottom: 30px;
     border-radius: 10px;
+    border: 1px solid #4A85EE;
 }
 .offer .box:hover {
 	padding: 30px 30px 70px 30px;
 	box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.20);
-	background-color:#31393c;
+	background-color:#EFEFEF;
 }
 
-
-/* .why-us .box span {
-    display: block;
-    font-size: 50px;
-    font-weight: 700;
-    color: #6b6060;
-    position: absolute;
-    right: 10px;
-    top: 0px;
-    line-height: normal;
-} */
 .offer .box h3 a {
 	font-size: 1.5rem;
   font-family: 'fira sans';
 	font-weight: 600;
 	padding: 0;
 	margin: 20px 0;
-	color: white;
+	color: #4A85EE;
 	text-decoration: none;
+}
+.offer-img{
+  height: 500px;
+  width: 300px;
+  margin-top:
+}
+
+.offer-img-2{
+  margin-top: 80px;
 }
 
 
 .btn-offer{
-  background:#fdca40;
+  background: #FF5700;
   color: white;
-  padding-left:30px;
-  font-size: 12px;
-  font-family: 'gotham';
-  font-weight: 500;
+  padding: 0.625rem;
+  padding-left:1.438rem;
+  font-size:1rem;
+  font-weight: bold;
   border-radius:1.25rem;
   border: none;
   cursor: pointer;
   display: flex;
   align-items: center;
+  justify-content: center;
   overflow: hidden;
-  position: relative;
+  position: absolute;
   height: 30px;
   width: 150px;
-  padding-right:16px;
+  padding-right: 1em;
+  text-align: center;
+  font-family: 'gotham';
 }
 .btn-offer-link{
   text-decoration: none;
 }
+.btn-offer:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em #31393c;
+}
+
+.btn-offer:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em #31393c;
+}
+
 
 
 /* ---Por qué elegirnos Cards---*/
@@ -300,7 +315,7 @@ section.hero{
   font-size:40px;
   font-family: 'gotham';
   font-weight: bold;
-  color: #2176ff;
+  color: #4A85EE;
 }
 .por-que-h2::after {
   content: "";
@@ -317,12 +332,12 @@ section.hero{
 }
 .por-que-h3{
     font-size: 1.25rem;
-    color: #2176ff;
+    color: #4A85EE;
     font-family: 'fira sans';
     font-weight: 600;
 }
 .por-que-body{
-    font-size: 1.063rem;
+    font-size: 17px;
     font-weight:400;
     font-family: 'fira sans';
 }
@@ -333,16 +348,43 @@ section.hero{
 .por-que-body-ul-li{
   list-style: none;
 }
+.offer-img{
+  height: 60px;
+  width:60px;
+}
+.offer-img-span {
+  display: block;
+  font-size: 56px;
+  font-weight: 700;
+  color: #6b6060;
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  line-height: normal;
+}
 /* Preuniversitarios */
 .background-pre{
-  background-color: #2176ff;
+  background-color: #4A85EE;
 }
-.pre-title{
-  font-family:'gotham';
-  font-size: 2.813rem;
+.pre-title-h2 {
+  position: relative;
+  margin-bottom: 2.188rem;
+  font-size:40px;
+  font-family: 'gotham';
   font-weight: bold;
-  color: white;
-  margin-top: 3.125rem;
+  color:white;
+}
+.pre-title-h2::after {
+  content: "";
+  width: 120px;
+  height: 3px;
+  display: inline-block;
+  background: #FFC107;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: -20px;
+  margin: 0 auto;
 }
 .pre-text{
   font-family: 'fira sans';
@@ -350,47 +392,45 @@ section.hero{
   font-weight: bold;
   font-size: 1.25rem;
 }
-
-/* ver mas btn */
-.btn-ver-mas{
-  background: #fdca40;
-  color: white;
-  padding: 0.625rem;
-  padding-left:9em;
-  font-size: 1.25rem;
-  font-family: 'gotham';
-  font-weight: 500;
-  border-radius: 1.25rem;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  position: relative;
-  height: 3rem;
-  width: 25em;
-  text-align: center;
+.btn-pre{
+  background: #FF5700;
+    color: white;
+    font-size:1rem;
+    font-weight: bold;
+    border-radius:1.25rem;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    height: 2.5rem;
+    width: 12em;
+    text-align: center;
+    font-family: 'gotham';
+    margin-left: 65px;
   }
-
-  .btn-ver-mas:hover {
+  .btn-apoyo:hover {
     transform: translate(-0.05em, -0.05em);
     box-shadow: 0.15em 0.15em #31393c;
   }
   
-  .btn-ver-mas:active {
+  .btn-apoyo:active {
     transform: translate(0.05em, 0.05em);
     box-shadow: 0.05em 0.05em #31393c;
   }
-  .btn-ver-mas-link{
+  .btn-apoyo-link{
     text-decoration: none;
   }
+
 
 
   /* Clases de apoyo */
   .clases-apoyo-h2 {
   position: relative;
   margin-bottom: 2.188rem;
-  font-size:2.813rem;
+  font-size:40px;
   font-family: 'gotham';
   font-weight: bold;
   color: white;
@@ -457,7 +497,93 @@ section.hero{
   color: #4A85EE;
   font-weight: 600;
 }
+  /* Cursos para docentes */
+  .cursos-docentes-h2 {
+    position: relative;
+    margin-bottom: 2.188rem;
+    font-size:40px;
+    font-family: 'gotham';
+    font-weight: bold;
+    color: white;
+  }
+  .cursos-docentes-h2::after {
+    content: "";
+    width: 120px;
+    height: 3px;
+    display: inline-block;
+    background: #FFC107;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -20px;
+    margin-bottom: 100px;
+    margin: 0 auto;
+  }
+  .btn-cursos-docentes{
+    background: #FF5700;
+    color: white;
+    font-size:1rem;
+    font-weight: bold;
+    border-radius:1.25rem;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    height: 2rem;
+    margin-left: 60px;
+    width: 12em;
+    text-align: center;
+    font-family: 'gotham';
+  }
+  .btn-cursos-docentes:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em #31393c;
+  }
   
+  .btn-cursos-docentes:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #31393c;
+  }
+  .btn-cursos-docentes-link{
+    text-decoration: none;
+  }
+  /* Talleres */
+  .btn-taller{
+    background: #FF5700;
+    color: white;
+    font-size:1rem;
+    font-weight: bold;
+    border-radius:1.25rem;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    height: 2rem;
+    margin-left: 60px;
+    width: 12em;
+    text-align: center;
+    font-family: 'gotham';
+  }
+  .btn-taller:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em #31393c;
+  }
+  
+  .btn-taller:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #31393c;
+  }
+  .btn-taller-link{
+    text-decoration: none;
+  }
+  
+
   /* About us */
 
   .about-h2 {
@@ -519,57 +645,9 @@ font-family: 'fira sans';
   background-color: white;
   border: 1px solid #FF5700;
 }
-
-/* ------------btn-about-------- */
-
-.btn-about {
-  background-color: #fff;
-  border: 0.063rem solid #2176ff;
-  padding: 0.313rem;
-  position: relative;
-  width: 12em;
-  height: 2.5em;
-  transition: 0.5s;
-  font-size: 1.25rem;
-  border-radius: 1.25rem;
-  font-family: 'gotham';
-}
-
-.btn-about p {
-  position: absolute;
-  top: 0.4em;
-  left: 4em;
-  margin: 0;
-  padding: 0;
-  transition: .5s;
-  color: #2176ff;
-  font-family: 'gotham';
-  text-align: center;
-}
-
-.btn-about svg {
-  position: absolute;
-  top: 0.45em;
-  right: 0.5em;
-  margin: 0;
-  padding: 0;
-  opacity: 0;
-  transition: 0.5s;
-  height: 1em;
-  fill: #fff
-}
-
-.btn-about:hover p {
-  left: 0.6em;
-  color: #fff
-}
-
-.btn-about:hover svg {
-  opacity: 1;
-}
-
-.btn-about:hover {
-  background-color: #0077b5;
+.firma{
+  height: 50px;
+  width: 180px;
 }
 
 /* Profesores */
@@ -581,7 +659,7 @@ font-family: 'fira sans';
   font-weight: bold;
   color:#4A85EE;
 }
-.profesores-h2::after {
+.contact-h2::after {
   content: "";
   width: 120px;
   height: 3px;
@@ -597,6 +675,27 @@ font-family: 'fira sans';
 
 
 /* Contact us */
+.contact-h2 {
+  position: relative;
+  margin-bottom: 2.188rem;
+  font-size:40px;
+  font-family: 'gotham';
+  font-weight: bold;
+  color:#4A85EE;
+}
+.contact-h2::after {
+  content: "";
+  width: 120px;
+  height: 3px;
+  display: inline-block;
+  background: #FFC107;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: -20px;
+  margin-bottom: 100px;
+  margin: 0 auto;
+}
 
 .img-contact{
   height: 40rem;
@@ -604,7 +703,7 @@ font-family: 'fira sans';
 }
 
 .text-contact-title{
-color:#2176ff;
+color:#4A85EE;
 font-size: 2.813rem;
 font-weight: bold;
 font-family: 'gotham';
@@ -612,8 +711,9 @@ padding-bottom: 6.25rem;
 
 }
 
-.iframe-text{
-font-size: 1.25rem;
+.form-container{
+ 
+  
 }
 
 .contact-info-icons{
@@ -632,7 +732,7 @@ font-family: 'montserrat';
   font-size:2.813rem;
   font-family: 'fira sans';
   font-weight: bold;
-  color: #2176ff;
+  color: #4A85EE;
 }
 
 .faq-text-title{
@@ -651,7 +751,7 @@ font-family: 'montserrat';
 /* Footer */
 
 .bg-footer{
-  background-color: #2176ff;
+  background-color: #4A85EE;
   color: white;
   font-family: 'fira sans';
   font-weight: 400;
@@ -671,6 +771,11 @@ font-family: 'montserrat';
   font-weight: 500;
 }
 
+.logo-footer{
+  height: 150px;
+  width: 150px;
+}
+
 
 /* Social media */
 .social-footer{
@@ -680,4 +785,6 @@ font-family: 'montserrat';
 .footer-social-link{
   text-decoration: none;
 }
+
+
 
