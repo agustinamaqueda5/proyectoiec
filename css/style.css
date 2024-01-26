@@ -13,6 +13,9 @@
 
 /* Header */
 /* WhatsApp sticky btn */
+.scroll{
+  overflow-x: hidden;
+}
 .float{
 	position:fixed;
 	width:60px;
@@ -52,8 +55,8 @@ background-color:#EFEFEF;
 }
 
 .logo-iec{
-  height: 70px;
-  width: 70px;
+  height: 80px;
+  width: 80px;
   margin-left: 50px;
 
 }
@@ -182,8 +185,6 @@ section.hero{
 .btn-hero{
   background: #FF5700;
   color: white;
-  padding: 0.625rem;
-  padding-left:4em;
   font-size: 1.25rem;
   font-weight: bold;
   border-radius:1.25rem;
@@ -191,12 +192,11 @@ section.hero{
   cursor: pointer;
   display: flex;
   align-items: center;
+  justify-content: center;
   overflow: hidden;
   position: relative;
   height: 3rem;
   width: 15em;
-  padding-right: 1em;
-  text-align: center;
   font-family: 'gotham';
 }
 .btn-hero:hover {
@@ -608,9 +608,9 @@ section.hero{
     margin: 0 auto;
   }
 
-  .img-about{
+
+    .img-about{
     width: 25rem;
-   height: 31.25rem;
     
   }
 
@@ -640,10 +640,12 @@ font-family: 'fira sans';
 }
 .card-about1{
   background-color: #4A85EE;
+  height: 200px;
 }
 .card-about2{
   background-color: white;
   border: 1px solid #FF5700;
+  height: 200px;
 }
 .firma{
   height: 50px;
@@ -659,7 +661,7 @@ font-family: 'fira sans';
   font-weight: bold;
   color:#4A85EE;
 }
-.contact-h2::after {
+.profesores-h2::after {
   content: "";
   width: 120px;
   height: 3px;
@@ -672,7 +674,19 @@ font-family: 'fira sans';
   margin-bottom: 100px;
   margin: 0 auto;
 }
-
+.profesores-descrip-h3{
+  font-family: 'gotham';
+  font-size: 20px;
+  color: #31393c;
+}
+.profesores-descrip-article{
+  font-family: 'fira sans';
+  font-size: 17px;
+}
+.profesores-descrip-h4{
+  font-family: 'fira sans';
+  font-size: 14px;
+}
 
 /* Contact us */
 .contact-h2 {
@@ -711,10 +725,6 @@ padding-bottom: 6.25rem;
 
 }
 
-.form-container{
- 
-  
-}
 
 .contact-info-icons{
 height:1.563rem;
@@ -724,7 +734,7 @@ width:1.563rem;
 margin-top: -1.875rem;
 font-size: 1.25rem;
 color:#31393c;
-font-family: 'montserrat';
+font-family: 'gotham';
 }
 
 /* FAQ */
@@ -765,7 +775,7 @@ font-family: 'montserrat';
 
 .navbar-footer {
   font-size: 0.875rem;
-  color: #31393c;
+  color: #4A85EE;
   text-decoration: none;
   font-family: 'gotham';
   font-weight: 500;
@@ -785,6 +795,10 @@ font-family: 'montserrat';
 .footer-social-link{
   text-decoration: none;
 }
+
+/* Media queries */
+
+
 
 
 
