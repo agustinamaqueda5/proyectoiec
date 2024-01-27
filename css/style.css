@@ -11,11 +11,12 @@
 #fdca40
 ##FF5700  */
 
+body{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
 /* Header */
 /* WhatsApp sticky btn */
-
-body
-{overflow-x: hidden;}
 .float{
 	position:fixed;
 	width:60px;
@@ -872,8 +873,38 @@ font-family: 'gotham';
     .iframe{
       width: 500px;
     }
-
   }
+  /* ----1125x2436----- */
+    @media(max-width:1125px){
+      /* Navbar */
+      .navbar{
+        margin-left: 220px;
+      }
+      .navbar-bg{
+        width:1220px;
+      }
+      .background-2{
+        width: 1220px;
+      }
+      .banner{
+        width: 1220px;
+      }
+      /* Por qué elegirnos */
+      .card-body{
+        height: 300px;
+      }
+      /* Preuniversitarios */
+      .background-pre{
+        nav-right: auto;
+      }
+      .btn-pre{
+        margin-left: 40px;
+      }
+      .btn-apoyo{
+
+      }
+    }
+  /* ----1024x1366---- */
 
 
 
