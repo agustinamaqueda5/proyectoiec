@@ -14,9 +14,8 @@
 /* Header */
 /* WhatsApp sticky btn */
 
-.scroll{
-  overflow-x: hidden;
-}
+body
+{overflow-x: hidden;}
 .float{
 	position:fixed;
 	width:60px;
@@ -393,6 +392,9 @@ section.hero{
   font-weight: bold;
   font-size: 1.25rem;
 }
+.card-pre{
+  height: 400px;
+}
 .btn-pre{
   background: #FF5700;
     color: white;
@@ -402,26 +404,27 @@ section.hero{
     border: none;
     cursor: pointer;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     overflow: hidden;
-    position: relative;
     height: 2.5rem;
     width: 12em;
     text-align: center;
     font-family: 'gotham';
-    margin-left: 65px;
+    position: absolute;
+    margin-left: 90px;
+    bottom: 15px;
   }
-  .btn-apoyo:hover {
+  .btn-pre:hover {
     transform: translate(-0.05em, -0.05em);
     box-shadow: 0.15em 0.15em #31393c;
   }
   
-  .btn-apoyo:active {
+  .btn-pre:active {
     transform: translate(0.05em, 0.05em);
     box-shadow: 0.05em 0.05em #31393c;
   }
-  .btn-apoyo-link{
+  .btn-pre-link{
     text-decoration: none;
   }
 
@@ -449,6 +452,7 @@ section.hero{
   margin-bottom: 100px;
   margin: 0 auto;
 }
+
   .card-apoyo-body{
     height:200px;
   }
@@ -465,11 +469,14 @@ section.hero{
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    position: relative;
+    position: absolute;
     height: 2.5rem;
     width: 12em;
     text-align: center;
     font-family: 'gotham';
+    bottom: -5px;
+    position: relative;
+    margin-left: 40px;
   }
   .btn-apoyo:hover {
     transform: translate(-0.05em, -0.05em);
@@ -484,7 +491,7 @@ section.hero{
     text-decoration: none;
   }
 .img-cards{
-  height: 240px;
+  height: 270px;
 }
 .apoyo-sub{
   font-family: 'gotham';
@@ -534,10 +541,13 @@ section.hero{
     overflow: hidden;
     position: absolute;
     height: 2rem;
-    margin-left: 60px;
     width: 12em;
     text-align: center;
     font-family: 'gotham';
+    position: absolute;
+    margin-left: 90px;
+    bottom: 15px;
+
   }
   .btn-cursos-docentes:hover {
     transform: translate(-0.05em, -0.05em);
@@ -550,6 +560,9 @@ section.hero{
   }
   .btn-cursos-docentes-link{
     text-decoration: none;
+  }
+  .img-cards-curso{
+    height: 600px;
   }
   /* Talleres */
   .btn-taller{
@@ -564,12 +577,13 @@ section.hero{
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    position: absolute;
     height: 2rem;
-    margin-left: 60px;
     width: 12em;
     text-align: center;
     font-family: 'gotham';
+    position: absolute;
+    margin-left: 90px;
+    bottom: 15px;
   }
   .btn-taller:hover {
     transform: translate(-0.05em, -0.05em);
@@ -713,8 +727,11 @@ font-family: 'fira sans';
 }
 
 .img-contact{
-  height: 40rem;
-  width: 31.875rem;
+  height: 400px;
+  width: 300px;
+}
+.iframe{
+  margin-left: -230px;
 }
 
 .text-contact-title{
@@ -799,14 +816,71 @@ font-family: 'gotham';
 
 /* Media queries */
 
+/* ---2560×1440---- */
 @media (max-width:2460px){
    /* Banner */
    .banner{
-    width: 100%;
     height: 800px;
 }
-
 }
+/* ----1920×1080---- */
+
+/* ----1600×900---- */
+@media (max-width:1600px){
+  .iframe{
+    height: 800px;
+    width: 600px;
+  }
+}
+
+/* ----1536×864---- */
+/* ----1366×768---- */
+@media(max-width:1366px){
+  /* --Preuniversitarios-- */
+  .btn-pre{
+    margin-left: 70px;
+  }
+  /* -- Clases de apoyo-- */
+  .btn-apoyo{
+    margin-left: 25px;
+  }
+  /* --Cursos-- */
+  .btn-cursos-docentes{
+    margin-left: 70px;
+  }
+  .img-cards-curso{
+    height: 400px;
+  }
+  /* --Talleres-- */
+  .btn-taller{
+    margin-left: 70px;
+  }
+  /* --Contacto-- */
+  .iframe{
+    width: 500px;
+    height: 1000px;
+  }
+  }
+  /* ----1280×720---- */
+  @media(max-width:1280px){
+    /* --Qué ofrecemos-- */
+    .btn-offer{
+      padding-bottom:20px;
+      padding-top:20px;
+    }
+    /* --Contacto-- */
+    .iframe{
+      width: 500px;
+    }
+
+  }
+
+
+
+
+
+
+
 
 
 
