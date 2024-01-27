@@ -11,7 +11,9 @@
 #fdca40
 ##FF5700  */
 
-
+body{
+  overflow-x: hidden;
+}
 /* Header */
 /* WhatsApp sticky btn */
 .float{
@@ -211,6 +213,9 @@ section.hero{
 }
 
 /* Qué ofrecemos */
+.offer-sec{
+margin-right:0;
+}
 .offer-h2 {
     position: relative;
     margin-bottom: 2.188rem;
@@ -306,6 +311,10 @@ section.hero{
 
 
 /* ---Por qué elegirnos Cards---*/
+.elegirnos-sec{
+  margin-right: 0;
+  margin-left: 0;
+}
 
 .por-que-h2 {
   position: relative;
@@ -820,6 +829,11 @@ font-family: 'gotham';
    .banner{
     height: 800px;
 }
+.container{
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
 }
 /* ----1920×1080---- */
 
@@ -877,13 +891,11 @@ font-family: 'gotham';
       .navbar{
       }
       .navbar-bg{
-        width:1220px;
+        
       }
       .background-2{
-        width: 1220px;
       }
       .banner{
-        width: 1220px;
       }
       /* Por qué elegirnos */
       .card-body{
@@ -891,7 +903,6 @@ font-family: 'gotham';
       }
       /* Preuniversitarios */
       .background-pre{
-        width:1220px;
       }
       .btn-pre{
         margin-left: 40px;
@@ -915,7 +926,6 @@ font-family: 'gotham';
       }
       /* --Footer-- */
       .footer-footer{
-        width:1220px;
       }
     }
   /* ----1024x1366---- */
