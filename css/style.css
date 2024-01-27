@@ -11,10 +11,7 @@
 #fdca40
 ##FF5700  */
 
-body{
-  overflow-x: hidden;
-  overflow-y: auto;
-}
+
 /* Header */
 /* WhatsApp sticky btn */
 .float{
@@ -878,7 +875,6 @@ font-family: 'gotham';
     @media(max-width:1125px){
       /* Navbar */
       .navbar{
-        margin-left: 220px;
       }
       .navbar-bg{
         width:1220px;
@@ -895,16 +891,38 @@ font-family: 'gotham';
       }
       /* Preuniversitarios */
       .background-pre{
-        nav-right: auto;
+        width:1220px;
       }
       .btn-pre{
         margin-left: 40px;
       }
+      /* --Clases apoyo-- */
       .btn-apoyo{
-
+        width: 170px;
+        margin-left: 10px;
+      }
+      /* --Cursos-- */
+      .btn-cursos-docentes{
+        margin-left: 40px;
+      }
+      /* --Talleres-- */
+      .btn-taller{
+        margin-left: 40px;
+      }
+      /* --Contacto-- */
+      .iframe{
+        margin-left: -100px;
+      }
+      /* --Footer-- */
+      .footer-footer{
+        width:1220px;
       }
     }
   /* ----1024x1366---- */
+ /* ----980px---- */
+ @media(max-width:980px){
+
+ }
 
 
 
