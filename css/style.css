@@ -760,12 +760,7 @@ padding-bottom: 6.25rem;
 height:1.563rem;
 width:1.563rem;
 }
-.div-contact{
-margin-top: -1.875rem;
-font-size: 1.25rem;
-color:#31393c;
-font-family: 'gotham';
-}
+
 
 /* FAQ */
 .faq-h2{
@@ -835,8 +830,7 @@ font-family: 'gotham';
     height: 800px;
 }
 .container{
-  margin-left: 30px;
-  margin-right: 30px;
+ 
 
 }
 }
@@ -917,7 +911,6 @@ font-family: 'gotham';
       }
       /* --Contacto-- */
       .iframe{
-        margin-left: -100px;
       }
     }
   /* ----1024x1366---- */
@@ -945,9 +938,29 @@ font-family: 'gotham';
     height: 350px;
   }
   /* --Preuniversitarios-- */
-  .background-pre{
-    width: 3000px;
+  .card-pre-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
   }
+  .btn-pre{
+    margin-left: 50px;
+  }
+  /* --Clases de apoyo-- */
+  .btn-apoyo{
+    margin-left: 50px;
+    bottom: 15px;
+    position: absolute;
+  }
+  .img-cards{
+    height: 500px;
+  }
+  /* --Contacto-- */
+ 
+  
+ 
+
 
  }
 
