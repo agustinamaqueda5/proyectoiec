@@ -17,42 +17,52 @@
 </head>
 <body>
     <header>
-          <!-- NavBar------------------------------------------ -->
-        <nav class="navbar navbar-expand-lg navbar-bg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#inicio"><img src="../assets/img/logo.webp" alt="Logo IEC" class="logo-iec"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4 p-2 justify-content-center flex-grow-1 md:text-center sm: text-center">
-                    <li class="nav-item">
-                    <a class="text-navbar" aria-current="page" href="../index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="text-navbar" href="../index.html#preuniversitarios">Preuniversitarios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="text-navbar" href="../index.html#cursos">Cursos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="text-navbar" href="./nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="text-navbar" href="../index.html#contacto">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="text-navbar" href="../index.html#faq">Preguntas Frecuentes</a>
-                    </li>
+           <!-- NavBar------------------------------------------ -->
+      <nav class="navbar navbar-expand-lg p-3 navbar-bg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo.webp" alt="Logo IEC" class="logo-iec"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link mx-2 active text-navbar" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 text-navbar" href="../index.html#preuniversitarios">Preuniversitarios</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link mx-2 dropdown-toggle text-navbar" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cursos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item text-navbar" href="../index.html#clasesdeapoyo">Clases de apoyo</a></li>
+                  <li><a class="dropdown-item text-navbar" href="../index.html#cursos">Cursos para docentes</a></li>
+                  <li><a class="dropdown-item text-navbar" href="../index.html#ingles">Cursos de Inglés</a></li>
+                  <li><a class="dropdown-item text-navbar" href="../index.html#talleres">Talleres</a></li>
                 </ul>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end me-5">
-                    <a href="#" class="btn-1-1-link"><button class="btn-1-1 text-center">INGRESAR</button></a>
-                    <a href="javascript:void(window.open('https://docs.google.com/forms/d/e/1FAIpQLSch-Z-Sa4fKyh3ysQIp5myw-uhfADuM5wOR51Zhnwuz7vo9jA/viewform','blank',
-                    'scrollbars=yes,toolbar=no,width=700,height=500'))" class="inscripciones-link">
-                    <button class="btn-1 text-center">INSCRIPCIONES</button></a>                </div>
-            </div>
-            </div>
-            </nav>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 text-navbar" href="./nosotros.html">Nosotros</a>
+                <li class="nav-item">
+                  <a class="nav-link mx-2 text-navbar" href="../index.html#contacto">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2 text-navbar" href="../index.html#faq">Preguntas Frecuentes</a>
+                </li>
+                <li class="nav-item d-grid gap-2 d-md-flex justify-content-md-center">
+                  <a href="#" class="btn-1-1-link"><button class="btn-1-1 text-center">INGRESAR</button></a>
+                  <a href="javascript:void(window.open('https://docs.google.com/forms/d/e/1FAIpQLSch-Z-Sa4fKyh3ysQIp5myw-uhfADuM5wOR51Zhnwuz7vo9jA/viewform','blank',
+                  'scrollbars=yes,toolbar=no,width=700,height=500'))" class="inscripciones-link">
+                  <button class="btn-1 text-center">INSCRIPCIONES</button></a>                </li>
+              </li>
+            </ul>
+              
+          </div>
+        </div>
+        </nav>
     </header>
     <main>
         <!-- Abous us ------->

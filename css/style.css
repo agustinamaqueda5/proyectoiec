@@ -909,10 +909,19 @@ width:1.563rem;
       .btn-taller{
         margin-left: 40px;
       }
-      /* --Contacto-- */
-      .iframe{
+    }
+    /* -----1080---- */
+    @media(max-width:1080px){
+      /* --Preuniv-- */
+      .btn-pre{
+        margin-left:40px;
+      }
+      /* --About-- */
+      .card-about1,.card-about2{
+        height: 230px;
       }
     }
+
   /* ----1024x1366---- */
  /* ----980px---- */
  @media(max-width:980px){
@@ -961,11 +970,14 @@ width:1.563rem;
     width: 300px;
     margin-bottom: 10px;
   }
-  
- 
-
-
+  .card-about1, .card-about2{
+    height: 230px;
+  }
  }
+ /* ----810×1080---- */
+ /* ----768px---- */
+
+
 
 
 
