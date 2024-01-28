@@ -12,48 +12,56 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header id="inicio" class="overflow-hidden me-0 mx-0">
-        <!-- NavBar------------------------------------------ -->
-        <nav class="navbar navbar-expand-lg navbar-bg overflow-hidden me-0 mx-0">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#inicio"><img src="./assets/img/logo.webp" alt="Logo IEC" class="logo-iec"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4 p-2 justify-content-center flex-grow-1 md:text-center sm: text-center">
-                    <li class="nav-item">
-                    <a class="text-navbar" aria-current="page" href="#inicio">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="text-navbar" href="#preuniversitarios">Preuniversitarios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="text-navbar" href="#cursos">Cursos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="text-navbar" href="./pages/nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="text-navbar" href="#contacto">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="text-navbar" href="#faq">Preguntas Frecuentes</a>
-                    </li>
+              <!-- NavBar------------------------------------------ -->
+      <nav class="navbar navbar-expand-lg p-3 navbar-bg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#inicio"><img src="./assets/img/logo.webp" alt="Logo IEC" class="logo-iec"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link mx-2 active text-navbar" aria-current="page" href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 text-navbar" href="#preuniversitarios">Preuniversitarios</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link mx-2 dropdown-toggle text-navbar" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cursos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item text-navbar" href="#clasesdeapoyo">Clases de apoyo</a></li>
+                  <li><a class="dropdown-item text-navbar" href="#cursos">Cursos para docentes</a></li>
+                  <li><a class="dropdown-item text-navbar" href="#ingles">Cursos de Inglés</a></li>
+                  <li><a class="dropdown-item text-navbar" href="#talleres">Talleres</a></li>
                 </ul>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end me-5">
-                    <a href="#" class="btn-1-1-link"><button class="btn-1-1 text-center">INGRESAR</button></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 text-navbar" href="#">Nosotros</a>
+                <li class="nav-item">
+                  <a class="nav-link mx-2 text-navbar" href="#">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2 text-navbar" href="#">Preguntas Frecuentes</a>
+                </li>
+                <li class="nav-item d-grid gap-2 d-md-flex justify-content-md-center">
+                  <a href="#" class="btn-1-1-link"><button class="btn-1-1 text-center">INGRESAR</button></a>
                   <a href="javascript:void(window.open('https://docs.google.com/forms/d/e/1FAIpQLSch-Z-Sa4fKyh3ysQIp5myw-uhfADuM5wOR51Zhnwuz7vo9jA/viewform','blank',
                   'scrollbars=yes,toolbar=no,width=700,height=500'))" class="inscripciones-link">
-                  <button class="btn-1 text-center">INSCRIPCIONES</button></a>
-                </div>
-            </div>
-            </div>
-            </nav>
+                  <button class="btn-1 text-center">INSCRIPCIONES</button></a>                </li>
+              </li>
+            </ul>
+              
+          </div>
+        </div>
+        </nav>
             <!-- ---------------------Banner---------------------------------------------------- -->
             <section class="container-fluid background-2">
                 <h1 class="pt-3 pb-4 text-center sm: pe-2 px-2 h1-bg">INSTITUTO EDUCATIVO 100% ONLINE EN VIVO</h1>
@@ -108,51 +116,51 @@
   <div class="container">
     <div class="row gy-5 gx-md-4 gy-lg-0 gx-xxl-5 justify-content-center">
       <div class="col-md-4">
-        <div class=" p-3 mb-2">
+        <div class="">
           <img src="./assets/img/icons/pre.webp" alt="" class="offer-img">
         </div>
-        <h4 class="mb-4">Preuniversitarios</h4>
-          <a href="#preuniversitarios" class="btn-offer-link"><button class=" btn-offer me-md-2 text-center" type="button">MÁS INFO</button></a>
+        <h4 class="ingles">Preuniversitarios</h4>
+          <a href="#preuniversitarios" class="btn-offer-link"><button class=" btn-offer text-center" type="button">MÁS INFO</button></a>
         </a>
       </div>
       <div class="col-md-4">
-        <div class=" p-3 mb-2">
+        <div class="">
           <img src="./assets/img/icons/apoyo.webp" alt="" class="offer-img">
         </div>
-        <h4 class="mb-4">Clases de apoyo</h4>
-          <a href="#clasesdeapoyo" class="btn-offer-link"><button class=" btn-offer me-md-2 text-center" type="button">MÁS INFO</button></a>
+        <h4 class="ingles">Clases de apoyo</h4>
+          <a href="#clasesdeapoyo" class="btn-offer-link"><button class=" btn-offer text-center" type="button">MÁS INFO</button></a>
         </a>
       </div>
       <div class="col-md-4">
-        <div class=" p-3 mb-2">
+        <div class="">
           <img src="./assets/img/icons/orientation.webp" alt="" class="offer-img">
         </div>
-        <h4 class="mb-4">Orientación vocacional</h4>
-          <a href="#talleres" class="btn-offer-link"><button class=" btn-offer me-md-2 text-center" type="button">MÁS INFO</button></a>
+        <h4 class="ingles">Orientación vocacional</h4>
+          <a href="#talleres" class="btn-offer-link"><button class=" btn-offer btn-orientacion text-center" type="button">MÁS INFO</button></a>
         </a>
       </div>
       <div class="col-md-4">
-        <div class=" p-3 mb-2">
+        <div class="">
           <img src="./assets/img/icons/docentes.webp" alt="" class="offer-img offer-img-2">
         </div>
-        <h4 class="mb-4">Cursos para docentes (DGE) y para padres</h4>
-          <a href="#cursos" class="btn-offer-link"><button class=" btn-offer me-md-2 text-center" type="button">MÁS INFO</button></a>
+        <h4 class="">Cursos para docentes (DGE) y para padres</h4>
+          <a href="#cursos" class="btn-offer-link"><button class=" btn-offer text-center" type="button">MÁS INFO</button></a>
         </a>
       </div>
       <div class="col-md-4">
-        <div class=" p-3 mb-2">
+        <div class="">
           <img src="./assets/img/icons/comprension.webp" alt="" class="offer-img offer-img-2">
         </div>
-        <h4 class="mb-4">Compresión lectora y herramientas de estudio</h4>
-          <a href="#compresion" class="btn-offer-link"><button class=" btn-offer me-md-2 text-center" type="button">MÁS INFO</button></a>
+        <h4 class="">Compresión lectora y herramientas de estudio</h4>
+          <a href="#compresion" class="btn-offer-link"><button class=" btn-offer text-center" type="button">MÁS INFO</button></a>
         </a>
       </div>
       <div class="col-md-4">
-        <div class=" p-3 mb-2">
+        <div class="">
           <img src="./assets/img/icons/ingles.webp" alt="" class="offer-img offer-img-2">
         </div>
-        <h4 class="mb-5 pb-2">Cursos de Inglés</h4>
-          <a href="#ingles" class="btn-offer-link"><button class=" btn-offer me-md-2 text-center" type="button">MÁS INFO</button></a>
+        <h4 class="ingles">Cursos de Inglés</h4>
+          <a href="#ingles" class="btn-offer-link"><button class=" btn-offer text-center btn-ingles" type="button">MÁS INFO</button></a>
         </a>
       </div>
     </div>
@@ -569,14 +577,14 @@
                 <div>
                   <img src="./assets/img/contact.webp" class=" img-contact rounded img-fluid mb-5">
                 </div>
-                <div class="container div-contact">
+                <div class="container div-contact col-sm-8 mb-sm-0">
                     <div class="d-flex">
                         <div class=""><img src="./assets/img/social-media/whatsapp.webp" class="contact-info-icons" alt=""></div>
                         <div class="p-2"><p>+54 9 261 5979401</p></div>
                     </div>
                 </div>
             </div>
-            <div class="container div-contact">
+            <div class="container div-contact col-sm-6 mb-sm-0">
                 <div class="d-flex">
                     <div class="p-2"><img src="./assets/img/social-media/mail.webp" class="contact-info-icons" alt=""></div>
                     <div class="p-2"><p>info@institutoiec.com.ar</p></div>

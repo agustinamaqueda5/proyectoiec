@@ -40,7 +40,7 @@ body{
 background-color:#EFEFEF;
 }
 .text-navbar{
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #4A85EE;
     text-decoration: none;
     font-weight:400;
@@ -266,11 +266,14 @@ margin-right:0;
 .offer-img{
   height: 500px;
   width: 300px;
-  margin-top:
+  margin-top:50px;
 }
 
 .offer-img-2{
-  margin-top: 80px;
+  margin-top: 100px;
+}
+.ingles{
+  margin-bottom: 35px;
 }
 
 
@@ -294,6 +297,8 @@ margin-right:0;
   padding-right: 1em;
   text-align: center;
   font-family: 'gotham';
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 .btn-offer-link{
   text-decoration: none;
@@ -738,7 +743,7 @@ font-family: 'fira sans';
   width: 300px;
 }
 .iframe{
-  margin-left: -230px;
+  margin-left: -200px;
 }
 
 .text-contact-title{
@@ -887,23 +892,13 @@ font-family: 'gotham';
   }
   /* ----1125x2436----- */
     @media(max-width:1125px){
-      /* Navbar */
-      .navbar{
-      }
-      .navbar-bg{
-        
-      }
-      .background-2{
-      }
-      .banner{
-      }
+      
       /* Por qué elegirnos */
       .card-body{
         height: 300px;
       }
       /* Preuniversitarios */
-      .background-pre{
-      }
+      .
       .btn-pre{
         margin-left: 40px;
       }
@@ -924,13 +919,35 @@ font-family: 'gotham';
       .iframe{
         margin-left: -100px;
       }
-      /* --Footer-- */
-      .footer-footer{
-      }
     }
   /* ----1024x1366---- */
  /* ----980px---- */
  @media(max-width:980px){
+  /* --Banner-- */
+  .banner{
+    height: 400px;
+  }
+
+  /* --Que ofrecemos-- */
+  .offer-sec{
+  }
+  .btn-offer{
+    margin-top: 2px;
+  }
+  .btn-orientacion{
+    margin-top: -20px;
+  }
+  .btn-ingles{
+    margin-top: 30px;
+  }
+  /* --Por que elegirnos-- */
+  .card-body{
+    height: 350px;
+  }
+  /* --Preuniversitarios-- */
+  .background-pre{
+    width: 3000px;
+  }
 
  }
 
