@@ -743,7 +743,8 @@ font-family: 'fira sans';
   width: 300px;
 }
 .iframe{
-  margin-left: -200px;
+  width: 500px;
+  height: 600px;
 }
 
 .text-contact-title{
@@ -838,10 +839,10 @@ width:1.563rem;
 
 /* ----1600×900---- */
 @media (max-width:1600px){
-  .iframe{
+  /* .iframe{
     height: 800px;
     width: 600px;
-  }
+  } */
 }
 
 /* ----1536×864---- */
@@ -865,12 +866,11 @@ width:1.563rem;
   /* --Talleres-- */
   .btn-taller{
     margin-left: 70px;
-  }
+  }}
   /* --Contacto-- */
-  .iframe{
+  /* .iframe{
     width: 500px;
     height: 1000px;
-  }
   }
   /* ----1280×720---- */
   @media(max-width:1280px){
@@ -880,9 +880,9 @@ width:1.563rem;
       padding-top:20px;
     }
     /* --Contacto-- */
-    .iframe{
+    /* .iframe{
       width: 500px;
-    }
+    } */
   }
   /* ----1125x2436----- */
     @media(max-width:1125px){
@@ -957,7 +957,10 @@ width:1.563rem;
     height: 500px;
   }
   /* --Contacto-- */
- 
+  .iframe{
+    width: 300px;
+    margin-bottom: 10px;
+  }
   
  
 
