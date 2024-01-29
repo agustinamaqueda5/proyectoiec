@@ -13,7 +13,8 @@
 
 body{
   overflow-x: hidden;
-}
+ }
+
 /* Header */
 /* WhatsApp sticky btn */
 .float{
@@ -1475,6 +1476,25 @@ margin-bottom: 50px;
     font-size: 16px;
   }
  }
+ /* ----380---- */
+ @media (max-width: 380px){
+  .card-pre{
+    height: 350px;
+    width: 270px;
+    left: 60px;
+  }
+  .img-pre, .img-clases, .img-cursos, .img-taller{
+    height: 150px;
+    width: 268px;
+  }
+  .btn-pre, .btn-cursos-docentes, .btn-taller{
+    margin-left: 20px;
+  }
+  
+  .btn-apoyo{
+    margin-left: 30px;
+  }
+ }
  /* ----375px---- */
   /* ----360---- */
   @media(max-width: 360px){
@@ -1587,6 +1607,29 @@ margin-bottom: 50px;
       font-size: 16px;
     }
   }
+  /* ----326---- */
+
+  /* ----325---- */
+  @media(max-width:325px){
+    .card-pre{
+      height: 350px;
+      width: 270px;
+      left: 10px;
+    }
+    .img-pre, .img-clases, .img-cursos, .img-taller{
+      height: 150px;
+      width: 268px;
+    }
+    .btn-pre, .btn-cursos-docentes, .btn-taller{
+      margin-left: 20px;
+    }
+    .btn-apoyo{
+      margin:25px;
+    }
+    .iframe{
+      margin-left: 20px;
+    }
+  }
   /* ----320---- */
   @media(max-width:320px){
     .h1-bg{
@@ -1635,12 +1678,12 @@ margin-bottom: 50px;
     }
     .card-pre{
       height: 350px;
-      width: 240px;
-      left: 20px;
+      width: 270px;
+      left: 10px;
     }
     .img-pre, .img-clases, .img-cursos, .img-taller{
       height: 150px;
-      width: 240px;
+      width: 268px;
     }
     .btn-pre, .btn-cursos-docentes, .btn-taller{
       margin-left: 10px;
