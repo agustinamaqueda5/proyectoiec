@@ -237,32 +237,6 @@ margin-right:0;
     margin: 0 auto;
 }
 
-.offer .box {
-    padding: 50px 30px;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.10);
-    transition: 0.5s;
-    position: relative;
-    max-height: 170px;
-    overflow: hidden;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    border: 1px solid #4A85EE;
-}
-.offer .box:hover {
-	padding: 30px 30px 70px 30px;
-	box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.20);
-	background-color:#EFEFEF;
-}
-
-.offer .box h3 a {
-	font-size: 1.5rem;
-  font-family: 'fira sans';
-	font-weight: 600;
-	padding: 0;
-	margin: 20px 0;
-	color: #4A85EE;
-	text-decoration: none;
-}
 .offer-img{
   height: 500px;
   width: 300px;
@@ -361,19 +335,10 @@ margin-right:0;
   list-style: none;
 }
 .offer-img{
-  height: 60px;
-  width:60px;
+  height: 50px;
+  width:50px;
 }
-.offer-img-span {
-  display: block;
-  font-size: 56px;
-  font-weight: 700;
-  color: #6b6060;
-  position: absolute;
-  right: 10px;
-  top: 0px;
-  line-height: normal;
-}
+
 /* Preuniversitarios */
 .background-pre{
   background-color: #4A85EE;
@@ -976,6 +941,72 @@ width:1.563rem;
  }
  /* ----810×1080---- */
  /* ----768px---- */
+  /* ----360---- */
+  @media (max-width: 360px){
+    .h1-bg{
+      font-size:1rem;
+    }
+    .banner{
+      height: 300px;
+    }
+    section.hero{
+      margin: 3rem 0;
+    }
+    .text-label{
+      font-size: 2rem;
+    }
+    .text-hero-regular{
+      font-size: 1rem;
+    }
+    .btn-hero{
+      display: flex;
+      order: 2;
+      height: 2rem;
+      width: 13rem;
+      margin-bottom: 50px;
+      margin-left: 50px;
+      font-size: 1rem;
+
+    }
+    .img-hero{
+      display: flex;
+      order: 1;
+    }
+    .offer-h2, .clases-apoyo-h2, .por-que-h2, .pre-title-h2, .cursos-docentes-h2, .about-h2, .contact-h2 {
+      font-size: 30px;
+    }
+    .div-offer{
+      margin-left: 100px;
+    }
+    .card-pre, .card-apoyo-body{
+      height: 350px;
+      width: 240px;
+      margin-left: 45px;
+    }
+    .img-pre, .img-clases, .img-cursos, .img-taller{
+      height: 150px;
+      width: 240px;
+    }
+    .btn-pre, .btn-cursos-docentes, .btn-taller{
+      margin-left: 10px;
+    }
+    
+    .btn-apoyo{
+      margin-left: 15px;
+    }
+    .card-body-porque{
+      height: 230px;
+    }
+    .por-que-h3{
+      font-size: 1rem;
+    }
+    .por-que-body{
+      font-size:14px;
+        }
+
+    
+
+  }
 
 
 
