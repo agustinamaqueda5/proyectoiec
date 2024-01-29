@@ -134,6 +134,7 @@ background-color:#EFEFEF;
     background-color:#4A85EE;
     background-size: cover;
     margin-bottom:-1rem;
+    padding-bottom: 10px;
 }
 
 .h1-bg{
@@ -389,7 +390,7 @@ margin-right:0;
     text-align: center;
     font-family: 'gotham';
     position: absolute;
-    margin-left: 90px;
+    margin-left: 60px;
     bottom: 15px;
   }
   .btn-pre:hover {
@@ -453,7 +454,7 @@ margin-right:0;
     font-family: 'gotham';
     bottom: -5px;
     position: relative;
-    margin-left: 40px;
+    margin-left: 20px;
   }
   .btn-apoyo:hover {
     transform: translate(-0.05em, -0.05em);
@@ -522,7 +523,7 @@ margin-right:0;
     text-align: center;
     font-family: 'gotham';
     position: absolute;
-    margin-left: 90px;
+    margin-left: 60px;
     bottom: 15px;
 
   }
@@ -539,7 +540,7 @@ margin-right:0;
     text-decoration: none;
   }
   .img-cards-curso{
-    height: 600px;
+    height: 400px;
   }
   /* Talleres */
   .btn-taller{
@@ -559,7 +560,7 @@ margin-right:0;
     text-align: center;
     font-family: 'gotham';
     position: absolute;
-    margin-left: 90px;
+    margin-left: 60px;
     bottom: 15px;
   }
   .btn-taller:hover {
@@ -792,7 +793,7 @@ margin-bottom: 50px;
 /* Media queries */
 
 /* ---2560×1440---- */
-@media (max-width:2460px){
+@media only screen and(max-width:2460px){
    /* Banner */
    .banner{
     height: 800px;
@@ -805,22 +806,21 @@ margin-bottom: 50px;
 /* ----1920×1080---- */
 
 /* ----1600×900---- */
-@media (max-width:1600px){
-  /* .iframe{
-    height: 800px;
-    width: 600px;
-  } */
+@media only screen and(max-width:1600px){
+  .background-2{
+    padding-bottom: 10px;
+  }
 }
 
 /* ----1536×864---- */
-  @media(max-width:1536px){
+  @media only screen and(max-width:1536px){
     .background-2{
       padding-bottom: 10px;
     }
   }
 
 /* ----1366×768---- */
-@media(max-width:1366px){
+@media only screen and(max-width:1366px){
   /* --Preuniversitarios-- */
   .btn-pre{
     margin-left: 70px;
@@ -904,8 +904,6 @@ margin-bottom: 50px;
   }
 
   /* --Que ofrecemos-- */
-  .offer-sec{
-  }
   .btn-offer{
     margin-top: 2px;
   }
@@ -949,7 +947,7 @@ margin-bottom: 50px;
  }
  /* ----810×1080---- */
  /* ----768px---- */
- @media (max-width: 768px) {
+ @media(max-width: 768px) {
   .background-2{
     padding-bottom: 10px;
   }
@@ -1054,7 +1052,7 @@ margin-bottom: 50px;
   .profesores-descrip-article, .profesores-descrip-h3{
     font-size: 16px;
  }}
- }
+
  /* ----414px---- */
  @media(max-width:414px){
   .h1-bg{
@@ -1078,7 +1076,7 @@ margin-bottom: 50px;
     height: 2rem;
     width: 13rem;
     margin-bottom: 50px;
-    margin-left: 50px;
+    margin-left: 85px;
     font-size: 1rem;
   }
   .img-hero{
@@ -1123,6 +1121,110 @@ margin-bottom: 50px;
   }
   .iframe{
     width: 250px;
+  }
+  .img-about{
+    width: 12rem;
+    margin-top: -5px;
+  }
+  .about-h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .text-about{
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  .card-about-sub{
+    font-size: 1rem;
+  }
+  .card-about1, .card-about2{
+    height: 170px;
+  }
+  .profesores-h2{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .img-about-cards{
+    height: 160px;
+    width: 160px;
+    margin-left: 47px;
+  }
+  .profesores-descrip-article, .profesores-descrip-h3{
+    font-size: 16px;
+ }}
+ /* ----412---- */
+ @media (max-width:412px){
+  .h1-bg{
+    font-size:1rem;
+  }
+  .banner{
+    height: 300px;
+  }
+  section.hero{
+    margin: 3rem 0;
+  }
+  .text-label{
+    font-size: 2rem;
+  }
+  .text-hero-regular{
+    font-size: 1rem;
+  }
+  .btn-hero{
+    display: flex;
+    order: 2;
+    height: 2rem;
+    width: 13rem;
+    margin-bottom: 5px;
+    margin-left: 85px;
+    font-size: 1rem;
+  }
+  .img-hero{
+    display: flex;
+    margin-top: 20px;
+    order: 1;
+  }
+  
+  .offer-h2, .clases-apoyo-h2, .por-que-h2, .pre-title-h2,.cursos-docentes-h2, .faq-h2, .contact-h2 {
+    font-size: 30px;
+  }
+  .div-offer{
+    margin-left: 70px;
+  }
+  .card-pre{
+    height: 350px;
+    width: 240px;
+    left: 85px;
+
+  }
+  .img-pre, .img-clases, .img-cursos, .img-taller{
+    height: 150px;
+    width: 240px;
+  }
+  .btn-pre, .btn-cursos-docentes, .btn-taller{
+    margin-left: 10px;
+  }
+  
+  .btn-apoyo{
+    margin-left: 15px;
+  }
+  .card-body-porque{
+    height: 230px;
+  }
+  .por-que-h3, .faq-text-title{
+    font-size: 1rem;
+  }
+  .por-que-body{
+    font-size:14px;
+      }
+  .img-contact{
+    height: 350px;
+    width: 300px;
+    margin-left: 70px;
+  }
+  .iframe{
+    width: 250px;
+    margin-left: 70px;
   }
   .img-about{
     width: 12rem;
@@ -1179,7 +1281,7 @@ margin-bottom: 50px;
     height: 2rem;
     width: 13rem;
     margin-bottom: 50px;
-    margin-left: 50px;
+    margin-left: 85px;
     font-size: 1rem;
   }
   .img-hero{
@@ -1193,10 +1295,11 @@ margin-bottom: 50px;
   .div-offer{
     margin-left: 70px;
   }
-  .card-pre, .card-apoyo-body{
+  .card-pre{
     height: 350px;
     width: 240px;
-    margin-left: 45px;
+    margin-left: 10px;
+
   }
   .img-pre, .img-clases, .img-cursos, .img-taller{
     height: 150px;
@@ -1221,9 +1324,11 @@ margin-bottom: 50px;
   .img-contact{
     height: 350px;
     width: 250px;
+    margin-left: 50px;
   }
   .iframe{
     width: 250px;
+    margin-left: 50px;
   }
   .img-about{
     width: 12rem;
@@ -1256,13 +1361,128 @@ margin-bottom: 50px;
   .profesores-descrip-article, .profesores-descrip-h3{
     font-size: 16px;
  }}
+ /* ----384---- */
+ @media(max-width: 384px){
+  .h1-bg{
+    font-size:1rem;
+  }
+  .banner{
+    height: 200px;
+  }
+  section.hero{
+    margin: 3rem 0;
+  }
+  .text-label{
+    font-size: 2rem;
+  }
+  .text-hero-regular{
+    font-size: 1rem;
+  }
+  .btn-hero{
+    display: flex;
+    order: 2;
+    height: 2rem;
+    width: 13rem;
+    margin-bottom: 50px;
+    margin-left: 45px;
+    font-size: 1rem;
+  }
+  .img-hero{
+    display: flex;
+    order: 1;
+  }
+  .offer-h2, .clases-apoyo-h2, .por-que-h2, .pre-title-h2,.cursos-docentes-h2, .contact-h2 {
+    font-size: 30px;
+  }
+  .faq-h2{
+    font-size: 30px;
+  }
+  .div-offer{
+    margin-left: 40px;
+  }
+  .btn-offer{
+    margin-top: 30px;
+  }
+
+  .offer-img-2{
+    margin-top:40px;
+  }
+  .card-pre{
+    height: 350px;
+    width: 240px;
+    margin-left: -20px;
+  }
+  .img-pre, .img-clases, .img-cursos, .img-taller{
+    height: 150px;
+    width: 240px;
+  }
+  .btn-pre, .btn-cursos-docentes, .btn-taller{
+    margin-left: 10px;
+  }
+  
+  .btn-apoyo{
+    margin-left: 15px;
+  }
+  .card-body-porque{
+    height: 230px;
+  }
+  .por-que-h3, .faq-text-title{
+    font-size: 1rem;
+  }
+  .por-que-body{
+    font-size:14px;
+      }
+  .img-contact{
+    height: 300px;
+    width: 210px;
+    margin-bottom: 50px;
+  }
+  .iframe{
+    width: 250px;
+    height: 100px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
+  .img-about{
+    width: 12rem;
+    margin-top: -5px;
+  }
+  .about-h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .text-about{
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  .card-about-sub{
+    font-size: 1rem;
+  }
+  .card-about1, .card-about2{
+    height: 170px;
+  }
+  .profesores-h2{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .img-about-cards{
+    height: 160px;
+    width: 160px;
+    margin-left: 47px;
+  }
+  .profesores-descrip-article, .profesores-descrip-h3{
+    font-size: 16px;
+  }
+ }
+ /* ----375px---- */
   /* ----360---- */
-  @media (max-width: 360px){
+  @media(max-width: 360px){
     .h1-bg{
       font-size:1rem;
     }
     .banner{
-      height: 300px;
+      height: 200px;
     }
     section.hero{
       margin: 3rem 0;
@@ -1279,7 +1499,7 @@ margin-bottom: 50px;
       height: 2rem;
       width: 13rem;
       margin-bottom: 50px;
-      margin-left: 50px;
+      margin-left: 65px;
       font-size: 1rem;
 
     }
@@ -1296,10 +1516,13 @@ margin-bottom: 50px;
     .div-offer{
       margin-left: 40px;
     }
+    .offer-img-2{
+      margin-top:40px;
+    }
     .card-pre, .card-apoyo-body{
       height: 350px;
       width: 240px;
-      margin-left: 10px;
+      margin-left: 5px;
     }
     .img-pre, .img-clases, .img-cursos, .img-taller{
       height: 150px;
@@ -1322,12 +1545,15 @@ margin-bottom: 50px;
       font-size:14px;
         }
     .img-contact{
-      height: 350px;
-      width: 250px;
+      height: 300px;
+      width: 210px;
+      margin-bottom: 50px;
     }
     .iframe{
       width: 250px;
+      height: 100px;
       margin-bottom: 50px;
+      margin-top: 10px;
     }
     .img-about{
       width: 12rem;
@@ -1360,13 +1586,120 @@ margin-bottom: 50px;
     .profesores-descrip-article, .profesores-descrip-h3{
       font-size: 16px;
     }
-   
-      
-    
-   
+  }
+  /* ----320---- */
+  @media(max-width:320px){
+    .h1-bg{
+      font-size:1rem;
+    }
+    .banner{
+      height: 200px;
+    }
+    section.hero{
+      margin: 3rem 0;
+    }
+    .text-label{
+      font-size: 2rem;
+    }
+    .text-hero-regular{
+      font-size: 1rem;
+    }
+    .btn-hero{
+      display: flex;
+      order: 2;
+      height: 2rem;
+      width: 13rem;
+      margin-bottom: 50px;
+      margin-left: 45px;
+      font-size: 1rem;
+    }
+    .img-hero{
+      display: flex;
+      order: 1;
+    }
+    .offer-h2, .clases-apoyo-h2, .por-que-h2, .pre-title-h2,.cursos-docentes-h2, .contact-h2 {
+      font-size: 30px;
+    }
+    .faq-h2{
+      font-size: 30px;
+    }
+    .div-offer{
+      margin-left: 40px;
+    }
+    .btn-offer{
+      margin-top: 20px;
+    }
 
+    .offer-img-2{
+      margin-top:40px;
+    }
+    .card-pre{
+      height: 350px;
+      width: 240px;
+      left: 20px;
+    }
+    .img-pre, .img-clases, .img-cursos, .img-taller{
+      height: 150px;
+      width: 240px;
+    }
+    .btn-pre, .btn-cursos-docentes, .btn-taller{
+      margin-left: 10px;
+    }
     
-
+    .btn-apoyo{
+      margin-left: 15px;
+    }
+    .card-body-porque{
+      height: 230px;
+    }
+    .por-que-h3, .faq-text-title{
+      font-size: 1rem;
+    }
+    .por-que-body{
+      font-size:14px;
+        }
+    .img-contact{
+      height: 300px;
+      width: 210px;
+      margin-bottom: 50px;
+    }
+    .iframe{
+      width: 250px;
+      height: 100px;
+      margin-bottom: 50px;
+      margin-top: 10px;
+    }
+    .img-about{
+      width: 12rem;
+      margin-top: -5px;
+    }
+    .about-h2{
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    .text-about{
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+    .card-about-sub{
+      font-size: 1rem;
+    }
+    .card-about1, .card-about2{
+      height: 170px;
+    }
+    .profesores-h2{
+      font-size: 30px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+    .img-about-cards{
+      height: 160px;
+      width: 160px;
+      margin-left: 47px;
+    }
+    .profesores-descrip-article, .profesores-descrip-h3{
+      font-size: 16px;
+    }
   }
 
 
