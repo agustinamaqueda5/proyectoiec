@@ -576,110 +576,6 @@ margin-right:0;
   }
   
 
-  /* About us */
-
-  .about-h2 {
-    position: relative;
-    margin-bottom: 2.188rem;
-    font-size:40px;
-    font-family: 'gotham';
-    font-weight: bold;
-    color:#4A85EE;
-  }
-  .about-h2::after {
-    content: "";
-    width: 120px;
-    height: 3px;
-    display: inline-block;
-    background: #FFC107;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: -20px;
-    margin-bottom: 100px;
-    margin: 0 auto;
-  }
-
-
-    .img-about{
-    width: 25rem;
-    
-  }
-
-  .div-pic{
-   margin-top: 3.125rem;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-
-.text-about{
-color: #31393c;
-font-size: 1.25rem;
-font-family: 'fira sans';
-}
-
-.card-about-sub{
-  font-size: 30px;
-  font-family: 'gotham';
-  font-weight: 500;
-}
-
-.card-about-body{
-  font-size: 17px;
-  font-family: 'fira sans';
-  font-weight: lighter;
-}
-.card-about1{
-  background-color: #4A85EE;
-  height: 200px;
-}
-.card-about2{
-  background-color: white;
-  border: 1px solid #FF5700;
-  height: 200px;
-}
-.firma{
-  height: 50px;
-  width: 180px;
-}
-
-/* Profesores */
-.profesores-h2 {
-  position: relative;
-  margin-bottom: 2.188rem;
-  font-size:40px;
-  font-family: 'gotham';
-  font-weight: bold;
-  color:#4A85EE;
-}
-.profesores-h2::after {
-  content: "";
-  width: 120px;
-  height: 3px;
-  display: inline-block;
-  background: #FFC107;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  bottom: -20px;
-  margin-bottom: 100px;
-  margin: 0 auto;
-}
-.profesores-descrip-h3{
-  font-family: 'gotham';
-  font-size: 20px;
-  color: #31393c;
-}
-.profesores-descrip-article{
-  font-family: 'fira sans';
-  font-size: 17px;
-}
-.profesores-descrip-h4{
-  font-family: 'fira sans';
-  font-size: 14px;
-}
-
 /* Contact us */
 .contact-h2 {
   position: relative;
@@ -786,6 +682,112 @@ width:1.563rem;
 .footer-social-link{
   text-decoration: none;
 }
+  /* About us */
+
+  .about-h2 {
+    position: relative;
+    margin-bottom: 2.188rem;
+    font-size:40px;
+    font-family: 'gotham';
+    font-weight: bold;
+    color:#4A85EE;
+  }
+  .about-h2::after {
+    content: "";
+    width: 120px;
+    height: 3px;
+    display: inline-block;
+    background: #FFC107;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -20px;
+    margin-bottom: 100px;
+    margin: 0 auto;
+  }
+
+
+  .img-about{
+    width: 25rem;
+    margin-bottom: 50px;
+    
+  }
+
+  .div-pic{
+   margin-top: 3.125rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.text-about{
+color: #31393c;
+font-size: 1.25rem;
+font-family: 'fira sans';
+margin-bottom: 50px;
+}
+
+.card-about-sub{
+  font-size: 30px;
+  font-family: 'gotham';
+  font-weight: 500;
+}
+
+.card-about-body{
+  font-size: 17px;
+  font-family: 'fira sans';
+  font-weight: lighter;
+}
+.card-about1{
+  background-color: #4A85EE;
+  height: 200px;
+}
+.card-about2{
+  background-color: white;
+  border: 1px solid #FF5700;
+  height: 200px;
+}
+.firma{
+  height: 50px;
+  width: 180px;
+}
+
+/* Profesores */
+.profesores-h2 {
+  position: relative;
+  margin-bottom: 2.188rem;
+  margin-top: 80px;
+  font-size:40px;
+  font-family: 'gotham';
+  font-weight: bold;
+  color:#4A85EE;
+}
+.profesores-h2::after {
+  content: "";
+  width: 120px;
+  height: 3px;
+  display: inline-block;
+  background: #FFC107;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: -20px;
+  margin-bottom: 100px;
+  margin: 0 auto;
+}
+.profesores-descrip-h3{
+  font-family: 'gotham';
+  font-size: 20px;
+  color: #31393c;
+}
+.profesores-descrip-article{
+  font-family: 'fira sans';
+  font-size: 17px;
+}
+.profesores-descrip-h4{
+  font-family: 'fira sans';
+  font-size: 14px;
+}
 
 /* Media queries */
 
@@ -811,6 +813,12 @@ width:1.563rem;
 }
 
 /* ----1536×864---- */
+  @media(max-width:1536px){
+    .background-2{
+      padding-bottom: 10px;
+    }
+  }
+
 /* ----1366×768---- */
 @media(max-width:1366px){
   /* --Preuniversitarios-- */
@@ -941,6 +949,313 @@ width:1.563rem;
  }
  /* ----810×1080---- */
  /* ----768px---- */
+ @media (max-width: 768px) {
+  .background-2{
+    padding-bottom: 10px;
+  }
+ }
+ /* ----720px---- */
+ @media(max-width:720px){
+  .h1-bg{
+    font-size:1rem;
+  }
+  .banner{
+    height: 300px;
+  }
+  section.hero{
+    margin: 3rem 0;
+  }
+  .text-label{
+    font-size: 2rem;
+  }
+  .text-hero-regular{
+    font-size: 1rem;
+  }
+  .btn-hero{
+    display: flex;
+    order: 2;
+    height: 2rem;
+    width: 13rem;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    font-size: 1rem;
+  }
+  .img-hero{
+    display: flex;
+    order: 1;
+  }
+  
+  .offer-h2, .clases-apoyo-h2, .por-que-h2, .pre-title-h2,.cursos-docentes-h2, .faq-h2, .contact-h2 {
+    font-size: 30px;
+  }
+  .div-offer{
+    margin-left: 50px;
+  }
+  .card-pre{
+    height: 390px;
+    width: 600px;
+    left: 50px;
+  }
+  .img-pre, .img-clases, .img-cursos, .img-taller{
+    height: 165px;
+    width: 325px;
+  }
+  .btn-pre, .btn-cursos-docentes, .btn-taller{
+    margin-left: 50px;
+  }
+  .btn-apoyo{
+    margin-left: 60px;
+  }
+  
+  .card-body-porque{
+    height: 230px;
+  }
+  .por-que-h3, .faq-text-title{
+    font-size: 1rem;
+  }
+  .por-que-body{
+    font-size:14px;
+      }
+  .img-contact{
+    height: 450px;
+    width: 350px;
+  }
+  .iframe{
+    width: 400px;
+    margin-top:50px;
+  }
+  .img-about{
+    width: 12rem;
+    margin-top: -5px;
+  }
+  .about-h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .text-about{
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  .card-about-sub{
+    font-size: 1rem;
+  }
+  .card-about1, .card-about2{
+    height: 170px;
+  }
+  .profesores-h2{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .img-about-cards{
+    height: 160px;
+    width: 160px;
+  }
+  .profesores-descrip-article, .profesores-descrip-h3{
+    font-size: 16px;
+ }}
+ }
+ /* ----414px---- */
+ @media(max-width:414px){
+  .h1-bg{
+    font-size:1rem;
+  }
+  .banner{
+    height: 300px;
+  }
+  section.hero{
+    margin: 3rem 0;
+  }
+  .text-label{
+    font-size: 2rem;
+  }
+  .text-hero-regular{
+    font-size: 1rem;
+  }
+  .btn-hero{
+    display: flex;
+    order: 2;
+    height: 2rem;
+    width: 13rem;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    font-size: 1rem;
+  }
+  .img-hero{
+    display: flex;
+    order: 1;
+  }
+  
+  .offer-h2, .clases-apoyo-h2, .por-que-h2, .pre-title-h2,.cursos-docentes-h2, .faq-h2, .contact-h2 {
+    font-size: 30px;
+  }
+  .div-offer{
+    margin-left: 50px;
+  }
+  .card-pre, .card-apoyo-body{
+    height: 350px;
+    width: 240px;
+    margin-left: 45px;
+  }
+  .img-pre, .img-clases, .img-cursos, .img-taller{
+    height: 150px;
+    width: 240px;
+  }
+  .btn-pre, .btn-cursos-docentes, .btn-taller{
+    margin-left: 10px;
+  }
+  
+  .btn-apoyo{
+    margin-left: 15px;
+  }
+  .card-body-porque{
+    height: 230px;
+  }
+  .por-que-h3, .faq-text-title{
+    font-size: 1rem;
+  }
+  .por-que-body{
+    font-size:14px;
+      }
+  .img-contact{
+    height: 350px;
+    width: 250px;
+  }
+  .iframe{
+    width: 250px;
+  }
+  .img-about{
+    width: 12rem;
+    margin-top: -5px;
+  }
+  .about-h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .text-about{
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  .card-about-sub{
+    font-size: 1rem;
+  }
+  .card-about1, .card-about2{
+    height: 170px;
+  }
+  .profesores-h2{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .img-about-cards{
+    height: 160px;
+    width: 160px;
+    margin-left: 47px;
+  }
+  .profesores-descrip-article, .profesores-descrip-h3{
+    font-size: 16px;
+ }}
+ 
+ /* ----390---- */
+ @media(max-width:390px){
+  .h1-bg{
+    font-size:1rem;
+  }
+  .banner{
+    height: 300px;
+  }
+  section.hero{
+    margin: 3rem 0;
+  }
+  .text-label{
+    font-size: 2rem;
+  }
+  .text-hero-regular{
+    font-size: 1rem;
+  }
+  .btn-hero{
+    display: flex;
+    order: 2;
+    height: 2rem;
+    width: 13rem;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    font-size: 1rem;
+  }
+  .img-hero{
+    display: flex;
+    order: 1;
+  }
+  
+  .offer-h2, .clases-apoyo-h2, .por-que-h2, .pre-title-h2,.cursos-docentes-h2, .faq-h2, .contact-h2 {
+    font-size: 30px;
+  }
+  .div-offer{
+    margin-left: 70px;
+  }
+  .card-pre, .card-apoyo-body{
+    height: 350px;
+    width: 240px;
+    margin-left: 45px;
+  }
+  .img-pre, .img-clases, .img-cursos, .img-taller{
+    height: 150px;
+    width: 240px;
+  }
+  .btn-pre, .btn-cursos-docentes, .btn-taller{
+    margin-left: 10px;
+  }
+  
+  .btn-apoyo{
+    margin-left: 15px;
+  }
+  .card-body-porque{
+    height: 230px;
+  }
+  .por-que-h3, .faq-text-title{
+    font-size: 1rem;
+  }
+  .por-que-body{
+    font-size:14px;
+      }
+  .img-contact{
+    height: 350px;
+    width: 250px;
+  }
+  .iframe{
+    width: 250px;
+  }
+  .img-about{
+    width: 12rem;
+    margin-top: -5px;
+  }
+  .about-h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .text-about{
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  .card-about-sub{
+    font-size: 1rem;
+  }
+  .card-about1, .card-about2{
+    height: 170px;
+  }
+  .profesores-h2{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .img-about-cards{
+    height: 160px;
+    width: 160px;
+    margin-left: 47px;
+  }
+  .profesores-descrip-article, .profesores-descrip-h3{
+    font-size: 16px;
+ }}
   /* ----360---- */
   @media (max-width: 360px){
     .h1-bg{
@@ -972,16 +1287,19 @@ width:1.563rem;
       display: flex;
       order: 1;
     }
-    .offer-h2, .clases-apoyo-h2, .por-que-h2, .pre-title-h2, .cursos-docentes-h2, .about-h2, .contact-h2 {
+    .offer-h2, .clases-apoyo-h2, .por-que-h2, .pre-title-h2,.cursos-docentes-h2, .contact-h2 {
+      font-size: 30px;
+    }
+    .faq-h2{
       font-size: 30px;
     }
     .div-offer{
-      margin-left: 100px;
+      margin-left: 40px;
     }
     .card-pre, .card-apoyo-body{
       height: 350px;
       width: 240px;
-      margin-left: 45px;
+      margin-left: 10px;
     }
     .img-pre, .img-clases, .img-cursos, .img-taller{
       height: 150px;
@@ -997,12 +1315,55 @@ width:1.563rem;
     .card-body-porque{
       height: 230px;
     }
-    .por-que-h3{
+    .por-que-h3, .faq-text-title{
       font-size: 1rem;
     }
     .por-que-body{
       font-size:14px;
         }
+    .img-contact{
+      height: 350px;
+      width: 250px;
+    }
+    .iframe{
+      width: 250px;
+      margin-bottom: 50px;
+    }
+    .img-about{
+      width: 12rem;
+      margin-top: -5px;
+    }
+    .about-h2{
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    .text-about{
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+    .card-about-sub{
+      font-size: 1rem;
+    }
+    .card-about1, .card-about2{
+      height: 170px;
+    }
+    .profesores-h2{
+      font-size: 30px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+    .img-about-cards{
+      height: 160px;
+      width: 160px;
+      margin-left: 47px;
+    }
+    .profesores-descrip-article, .profesores-descrip-h3{
+      font-size: 16px;
+    }
+   
+      
+    
+   
 
     
 
