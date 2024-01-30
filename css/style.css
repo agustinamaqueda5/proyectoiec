@@ -688,7 +688,7 @@ width:1.563rem;
 
   .about-h2 {
     position: relative;
-    margin-bottom: 2.188rem;
+    margin-bottom: 5px;
     font-size:40px;
     font-family: 'gotham';
     font-weight: bold;
@@ -726,7 +726,6 @@ width:1.563rem;
 color: #31393c;
 font-size: 1.25rem;
 font-family: 'fira sans';
-margin-bottom: 50px;
 }
 
 .card-about-sub{
