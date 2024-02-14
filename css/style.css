@@ -215,9 +215,7 @@ section.hero{
 }
 
 /* Qué ofrecemos */
-.offer-sec{
-margin-right:0;
-}
+
 .offer-h2 {
     position: relative;
     margin-bottom: 2.188rem;
@@ -239,19 +237,10 @@ margin-right:0;
     margin: 0 auto;
 }
 
-.offer-img{
-  height: 500px;
-  width: 300px;
-  margin-top:50px;
+.div-offer .offer-img{
+  height: 90px;
+  width: 80px;
 }
-
-.offer-img-2{
-  margin-top: 100px;
-}
-.ingles{
-  margin-bottom: 35px;
-}
-
 
 .btn-offer{
   background: #FF5700;
@@ -340,72 +329,140 @@ margin-right:0;
   height: 50px;
   width:50px;
 }
-
-/* Preuniversitarios */
-.background-pre{
-  background-color: #4A85EE;
+/*Nuestros Cursos cards*/
+*{
+  outline: none; border:none;
+  text-decoration: none;
+  transition: .2s linear;
 }
-.pre-title-h2 {
-  position: relative;
-  margin-bottom: 2.188rem;
-  font-size:40px;
+.container-1{
+background-color:#4A85EE;  
+padding:15px 9%;
+padding-bottom: 50px;
+}
+.cursos-h1{
+  font-size: 40px;
   font-family: 'gotham';
-  font-weight: bold;
-  color:white;
-}
-.pre-title-h2::after {
-  content: "";
-  width: 120px;
-  height: 3px;
-  display: inline-block;
-  background: #FFC107;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  bottom: -20px;
-  margin: 0 auto;
-}
-.pre-text{
-  font-family: 'fira sans';
   color: white;
-  font-weight: bold;
-  font-size: 1.25rem;
+  font-weight: 400;
 }
-.card-pre{
-  height: 400px;
+
+.container-1 h2{
+  text-align: start;
+  padding-bottom: 5px;
+  color:#fff;
+  text-shadow: 0 5px 10px rgba(0,0,0,.2);
+  font-size: 30px;
+  margin-top: 50px;
 }
-.btn-pre{
+
+.container-1 .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap:15px;
+}
+.container-1 .box-container .box{
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  border-radius: 5px;
+  background: #fff;
+  text-align: center;
+  padding:30px 20px;
+  margin-top: 30px;
+}
+.container-1 .box-container .box img{
+  height: 150px;
+  width: 220px;
+}
+.container-1 .box-container .box h3{
+  color:#31393c;
+  font-size: 17px;
+  padding:10px 0;
+  font-family: 'fira sans';
+}
+.container-1 .box-container .box p{
+  color:#4A85EE;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.8;
+  font-family: 'fira sans';
+}
+
+.container-1 .box-container .box .description{
+  font-size: 15px;
+  font-family: 'fira sans';
+  color:#31393c;
+  font-weight: lighter;
+}
+
+
+.btn-apoyo{
   background: #FF5700;
-    color: white;
-    font-size:1rem;
-    font-weight: bold;
-    border-radius:1.25rem;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    height: 2.5rem;
-    width: 12em;
-    text-align: center;
-    font-family: 'gotham';
-    position: absolute;
-    margin-left: 60px;
-    bottom: 15px;
-  }
-  .btn-pre:hover {
+  color: white;
+  font-size:1rem;
+  font-weight: bold;
+  border-radius:1.25rem;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+  height: 2.5rem;
+  width: 12em;
+  text-align: center;
+  font-family: 'gotham';
+  position: relative;
+  margin-left: 20px;
+}
+.container-1 .box-container .box .btn{
+  margin-top: 10px;
+  display: inline-block;
+  color:#fff;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 8px 25px;
+  width: 12em;
+  background-color: #FF5700;
+  font-family: 'fira sans';
+  overflow: hidden;
+  
+}
+
+.container-1 .box-container .box .btn:hover{
     transform: translate(-0.05em, -0.05em);
     box-shadow: 0.15em 0.15em #31393c;
   }
   
-  .btn-pre:active {
+  .container-1 .box-container .box .btn{
     transform: translate(0.05em, 0.05em);
     box-shadow: 0.05em 0.05em #31393c;
   }
-  .btn-pre-link{
-    text-decoration: none;
+
+
+.container-1 .box-container .box:h{
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+  transform: scale(1.03);
+}
+@media (max-width:768px){
+  .container-1{
+      padding:20px;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -431,32 +488,21 @@ margin-right:0;
   margin-bottom: 100px;
   margin: 0 auto;
 }
-
-  .card-apoyo-body{
-    height:200px;
-  }
-
-.btn-apoyo{
-    background: #FF5700;
-    color: white;
-    font-size:1rem;
-    font-weight: bold;
-    border-radius:1.25rem;
-    border: none;
-    cursor: pointer;
+  .container-card{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    position: absolute;
-    height: 2.5rem;
-    width: 12em;
-    text-align: center;
-    font-family: 'gotham';
-    bottom: -5px;
-    position: relative;
-    margin-left: 20px;
+    justify-content: space-between;
   }
+  .card-apoyo-body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: cal(100%/4.1);
+  }
+  .img-clases{
+    max-width: 50%;
+  }
+
+
   .btn-apoyo:hover {
     transform: translate(-0.05em, -0.05em);
     box-shadow: 0.15em 0.15em #31393c;
@@ -469,9 +515,9 @@ margin-right:0;
   .btn-apoyo-link{
     text-decoration: none;
   }
-.img-cards{
+/* .img-cards{
   height: 270px;
-}
+} */
 .apoyo-sub{
   font-family: 'gotham';
   font-size: 20px;
@@ -688,7 +734,7 @@ width:1.563rem;
 
   .about-h2 {
     position: relative;
-    margin-bottom: 5px;
+    margin-bottom: 2.188rem;
     font-size:40px;
     font-family: 'gotham';
     font-weight: bold;
@@ -726,6 +772,7 @@ width:1.563rem;
 color: #31393c;
 font-size: 1.25rem;
 font-family: 'fira sans';
+margin-bottom: 50px;
 }
 
 .card-about-sub{
@@ -790,6 +837,8 @@ font-family: 'fira sans';
   font-size: 14px;
 }
 
+
+
 /* Media queries */
 
 /* ---2560×1440---- */
@@ -798,10 +847,7 @@ font-family: 'fira sans';
    .banner{
     height: 800px;
 }
-.container{
- 
 
-}
 }
 /* ----1920×1080---- */
 
@@ -865,7 +911,6 @@ font-family: 'fira sans';
         height: 300px;
       }
       /* Preuniversitarios */
-      .
       .btn-pre{
         margin-left: 40px;
       }
@@ -1407,22 +1452,6 @@ font-family: 'fira sans';
   .offer-img-2{
     margin-top:40px;
   }
-  .card-pre{
-    height: 350px;
-    width: 240px;
-    margin-left: -20px;
-  }
-  .img-pre, .img-clases, .img-cursos, .img-taller{
-    height: 150px;
-    width: 240px;
-  }
-  .btn-pre, .btn-cursos-docentes, .btn-taller{
-    margin-left: 10px;
-  }
-  
-  .btn-apoyo{
-    margin-left: 15px;
-  }
   .card-body-porque{
     height: 230px;
   }
@@ -1476,24 +1505,6 @@ font-family: 'fira sans';
   }
  }
  /* ----380---- */
- @media (max-width: 380px){
-  .card-pre{
-    height: 350px;
-    width: 270px;
-    left: 60px;
-  }
-  .img-pre, .img-clases, .img-cursos, .img-taller{
-    height: 150px;
-    width: 268px;
-  }
-  .btn-pre, .btn-cursos-docentes, .btn-taller{
-    margin-left: 20px;
-  }
-  
-  .btn-apoyo{
-    margin-left: 30px;
-  }
- }
  /* ----375px---- */
   /* ----360---- */
   @media(max-width: 360px){
@@ -1526,7 +1537,7 @@ font-family: 'fira sans';
       display: flex;
       order: 1;
     }
-    .offer-h2, .clases-apoyo-h2, .por-que-h2, .pre-title-h2,.cursos-docentes-h2, .contact-h2 {
+    .offer-h2, .por-que-h2, .contact-h2 {
       font-size: 30px;
     }
     .faq-h2{
@@ -1538,23 +1549,10 @@ font-family: 'fira sans';
     .offer-img-2{
       margin-top:40px;
     }
-    .card-pre, .card-apoyo-body{
-      height: 350px;
-      width: 240px;
-      margin-left: 5px;
-    }
-    .img-pre, .img-clases, .img-cursos, .img-taller{
-      height: 150px;
-      width: 240px;
-    }
-    .btn-pre, .btn-cursos-docentes, .btn-taller{
-      margin-left: 10px;
-    }
+   
     
-    .btn-apoyo{
-      margin-left: 15px;
-    }
-    .card-body-porque{
+    
+      .card-body-porque{
       height: 230px;
     }
     .por-que-h3, .faq-text-title{
@@ -1610,21 +1608,6 @@ font-family: 'fira sans';
 
   /* ----325---- */
   @media(max-width:325px){
-    .card-pre{
-      height: 350px;
-      width: 270px;
-      left: 10px;
-    }
-    .img-pre, .img-clases, .img-cursos, .img-taller{
-      height: 150px;
-      width: 268px;
-    }
-    .btn-pre, .btn-cursos-docentes, .btn-taller{
-      margin-left: 20px;
-    }
-    .btn-apoyo{
-      margin:25px;
-    }
     .iframe{
       margin-left: 20px;
     }
@@ -1675,22 +1658,11 @@ font-family: 'fira sans';
     .offer-img-2{
       margin-top:40px;
     }
-    .card-pre{
-      height: 350px;
-      width: 270px;
-      left: 10px;
-    }
-    .img-pre, .img-clases, .img-cursos, .img-taller{
-      height: 150px;
-      width: 268px;
-    }
-    .btn-pre, .btn-cursos-docentes, .btn-taller{
-      margin-left: 10px;
-    }
+   
+  
     
-    .btn-apoyo{
-      margin-left: 15px;
-    }
+    
+    
     .card-body-porque{
       height: 230px;
     }
